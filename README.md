@@ -26,28 +26,26 @@ The data is from Kaggle(a platform for predictive modelling and analytics compet
     Continuous value in gram
 9.  Ring
     Target column that you should predict
+    
+The researchers believed adding **1.5** to the ring count is a reasonable approximation of the abalones age. This complex method increases the cost and limits its popularity. Hence, researchers are interested in relating abalone age to variables like length, height and weight of the animal.
    
 # Business Understanding
-**PROBLEM** : Only have basic customer data but want to know customer behaviour to plan marketing strategy accordingly.
+**PROBLEM** : The goal is to detect the age of abalone. If a reasonably accurate model could be found to predict the age of abalone, then the farmers would minimize the cost and customers would get the expected goods.
 
-**QUESTION** : How to understand customer behaviour to plan marketing strategy accordingly?
+**QUESTION** : What is The Most Accurate Model to Predict The Age of Abalone ?
 
-**MEASURE** : A well clustered customer basen on basic data that we have.
+**MEASURE** : % accurate prediction of abalone age (Mean Absolute Error, Mean Square Error, Root Mean Square Error, R-Square)
+
+I used 3 Regression Models and doing comparison:
+1.  Linear Regression
+2.  Random Forest Regression
+3.  Decision Tree Regression
 
 # References
-* “RFM Analysis: An Effective Customer Segmentation technique using Python” by Anand Singh
+ttps://www.kaggle.com/rodolfomendes/abalone-dataset
 
+https://mpra.ub.uni-muenchen.de/91210/1/MPRA_paper_91210.pdf
 
-https://link.medium.com/oyaAaPRtRab
+https://becominghuman.ai/machine-learning-series-day-6-decision-tree-regressor-82a2e2f873a
 
-* “Customer Segmentation with RFM Analysis & Kmeans Clustering” by Anugrah Nurhamid
-
-https://link.medium.com/lnqM7AVtRab
-
-* “Find Your Best Customers with Customer Segmentation in Python” by Susan Li
-
-https://link.medium.com/0GA3V7StRab
-
-* Pareto Chart
-
-https://tylermarrs.com/posts/pareto-plot-with-matplotlib/
+https://www.quora.com/What-is-the-difference-between-scikit-learns-random-forest-classifier-and-random-forest-regressor
